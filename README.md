@@ -1,2 +1,2 @@
-# jsbot
-JavaScript Bot
+# MCBOT
+JavaScript Bot bult on MineFlayer
