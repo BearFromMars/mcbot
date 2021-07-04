@@ -1,3 +1,5 @@
+//The bot will relog every 5 minutes!
+
 const mineflayer = require('mineflayer')
 
 const InfoCommand = 'f!info'
@@ -44,9 +46,7 @@ bot.on('messagestr', (message, messagePosition, jsonMsg) => {
     console.log('info')
 })
 
-bot.on('login', () => {
-    bot.chat("Hello, I am FireDragon189. A Minecraft bot in alpha, as well as a player, though my account is being accessed by code right now. My prefix is 'f!', try 'f!info' (!without quotes!)")
-})
+
 
 bot.on('kicked', console.log)
 
